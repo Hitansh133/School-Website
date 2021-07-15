@@ -13,23 +13,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <nav class=" navbar navbar-inverse">
-          <div  id="mate">
+        <nav class="navbar-inverse" style="position:sticky;top:0;z-index:9999;">
           <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#mycollapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>    
+            </button>
             <a class="navbar-brand" href="#">GIIS</a>
           </div>
          
-         
+         <div id="mycollapse" class="collapse navbar-collapse">    
             <ul class="nav navbar-nav">
                 <li><a class="navigation" href="#Home">Home</a></li>
                 <li><a class="navigation" href="#Alumani">Managment & Board</a></li>
                 <li><a class="navigation" href="#campuslife">Campus Life</a></li>
                 <li><a class="navigation" href="#ContactUs">Contact Us</a></li>
             </ul>
-            </div>
+            
+          </div>
         </nav>
 
     
@@ -79,7 +84,7 @@
          </div>
        </div>
         <br>
-        <iframe width="1000" height="409" src="https://www.youtube.com/embed/esc_wnPZ39A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="col-lg-3 col-md-3 col-sm-3 col-xs-4 responsive-iframe" src="https://www.youtube.com/embed/esc_wnPZ39A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </center>
     </section>  
  
@@ -102,28 +107,28 @@
           <h2 class="campush2">Campus Life</h2>
           <h3 class="campush2">Pre Primary</h3>
           <div class="log-lg-3 log-md-3 log-sm-3 log-xs-12">
-     <img class="img1" src="campuslife1.jpg">
+     <img   class="img-responsive" class="img1" src="campuslife1.jpg">
      
      <span><p>At GIIS, we recognise the importance of learning and holistic development during a child's formative years. Our pre-primary programme provides a safe, nurturing environment where children can begin building their skills and exploring their talents through age-appropriate activities. By encouraging young children's natural curiosity, we begin to set the stage for lifelong learning. By meeting our children where they are, we recognise that each child is a unique, highly valued member of our school community.</p></span>
      
     </div>     
     <div  class="log-lg-3 log-md-3 log-sm-3 log-xs-12" id="divison">
          <h3 id="campush3">Primary School</h3>
-         <span><img class="img1" src="campuslife2.png"></span>
+         <span><img  class="img-responsive" class="img1" src="campuslife2.png"></span>
          <span><p>Our programme for primary years is designed to be a joyful experience for students between 5 to 12 years, an age where physical and mental growth is accelerated and all encompassing.
 
             At this critical juncture, our faculty step in to identify, nurture and grow the students academic and non-academic interests in such a way that information passed to them is measured and engaging, making the learning of the rigorous CBSE curriculum a fun and joyful experience.</p></span>
      </div>    
      <div class="log-lg-3 log-md-3 log-sm-3 log-xs-12" id="divison2001">
          <h3>Secondary School</h3>
-       <span><img class="img1" src="campuslife3.png"></span>
+       <span><img  class="img-responsive" class="img1" src="campuslife3.png"></span>
        <span><p>Our Secondary School is more than the sum of its parts - which include a comprehensive curricula, assessments, value-added programmes, events and many other array of activities, that allow students to grow into well-rounded individuals.
 
         The Secondary School also fosters 21st century skills preparing the students for their journey towards a great college education.</p></span>
      </div>
      <div  class="log-lg-3 log-md-3 log-sm-3 log-xs-12" id="divison20002">
        <h3>High School</h3>
-       <span><img class="img" src="campuslife5.png"></span>
+       <span><img class="img-responsive" class="img" src="campuslife5.png"></span>
        <span><p>An interdisciplinary teaching at GIIS gives students a powerful opportunity to apply knowledge, principles, and values to more than one academic subject simultaneously. CBSE’s global curriculum comprises built-in activities and exercises which promote cross-curricular learning.
     </p></span>
      </div>
@@ -133,16 +138,14 @@
   <section id="ContactUs">
     <h2>Contact Us</h2>
     <center>
-      <div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.159058177163!2d73.73564641420488!3d18.56686647260412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bbf86abb4081%3A0xbda4b9cbe6f42207!2sGlobal%20Indian%20International%20School%20(GIIS)%2C%20Balewadi%20Campus!5e0!3m2!1sen!2sin!4v1625802283479!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    <span><img  id ="img201" src="principal.png"></span>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.159058177163!2d73.73564641420488!3d18.56686647260412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bbf86abb4081%3A0xbda4b9cbe6f42207!2sGlobal%20Indian%20International%20School%20(GIIS)%2C%20Balewadi%20Campus!5e0!3m2!1sen!2sin!4v1625802283479!5m2!1sen!2sin" class="responsive-iframe" height="450px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <span><img class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-4  " id ="img201" src="principal.png"></span>
     
       <img id="img200" src="mailicon.png">
       <p id="pop">School@gmail.com</p>
     
       <img  id ="opimg" src="phoneicon.png">
       <p>+916792291645</p>
-    </div>
   </center>
   </section> 
 </div>

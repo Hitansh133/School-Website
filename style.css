@@ -32,16 +32,11 @@ body{
 #campuslife center div h4{
     font-size:50px;
 }
- #img21{
-     margin-top:50px;
-     padding:15px;
- }
 #division span p{
  font-size:large;
  font-family:fantasy; 
  font-weight:500;
  margin-top:15px;
- padding: 12px;
 }
 #campush3{
     margin-top:13px;
@@ -63,7 +58,6 @@ body{
 #divison2002 span img{
     margin-top:30px;
     margin-bottom:15px;
-    padding:13px;
 }
 #divison2002 span p{
     font-weight: 500;
@@ -78,11 +72,6 @@ body{
 .img{
     width:150px;
 }
-#ContactUs iframe{
-    float:left;
-    margin-bottom:30px;
-    margin-top:30px;
-}
 #ContacUs h2{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -92,19 +81,11 @@ body{
     height:30px;
 }
   #img201{
-   width:300px;
-   height:300px;
    float:left;
 }
 #opimg{
     width: 30px;
     height: 30px;
-}
-#img201{
-    padding: 25px;
-}
-#img200{
-    padding:25px;
 }
 #imgage{
     width:1000px;
@@ -112,13 +93,4 @@ body{
 
 #opboltehai span img{
     width:250px;
-}
-#mate{
-    position:fixed;
-    top:0;
-    width:100%;
-   
-    display:block;
-    background-color: darkslategray;
-    
 }
